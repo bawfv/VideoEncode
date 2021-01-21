@@ -1,0 +1,5 @@
+# VideoEncode
+iOS中音视频采集，硬编码(AudioToolbox、VideoToolbox)
+
+用到AVCaptureSession来进行音视频数据采集、采集得到pcm和yuv420原始数据。然后使用AudioToolbox和VideoToolbox将数据进行编码为acc和h.264文件
+
