@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7927A025B918A500EEB03B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE79279F25B918A500EEB03B /* AppDelegate.m */; };
+		EE7927A625B918A500EEB03B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927A525B918A500EEB03B /* ViewController.m */; };
+		EE7927A925B918A500EEB03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7927A725B918A500EEB03B /* Main.storyboard */; };
+		EE7927AB25B918A600EEB03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7927AA25B918A600EEB03B /* Assets.xcassets */; };
+		EE7927AE25B918A600EEB03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7927AC25B918A600EEB03B /* LaunchScreen.storyboard */; };
+		EE7927B125B918A600EEB03B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927B025B918A600EEB03B /* main.m */; };
+		EE7927BB25B918A600EEB03B /* VideoEncodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927BA25B918A600EEB03B /* VideoEncodeTests.m */; };
+		EE7927C625B918A600EEB03B /* VideoEncodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927C525B918A600EEB03B /* VideoEncodeUITests.m */; };
+		EE7927DB25B91A4500EEB03B /* MyCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927D425B91A4500EEB03B /* MyCaptureSession.m */; };
+		EE7927DC25B91A4500EEB03B /* EncoderAAC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927D825B91A4500EEB03B /* EncoderAAC.m */; };
+		EE7927DD25B91A4500EEB03B /* EncodeH264.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7927D925B91A4500EEB03B /* EncodeH264.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7927B725B918A600EEB03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE79279325B918A500EEB03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE79279A25B918A500EEB03B;
+			remoteInfo = VideoEncode;
+		};
+		EE7927C225B918A600EEB03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE79279325B918A500EEB03B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE79279A25B918A500EEB03B;
+			remoteInfo = VideoEncode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE79279B25B918A500EEB03B /* VideoEncode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEncode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE79279E25B918A500EEB03B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE79279F25B918A500EEB03B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE7927A425B918A500EEB03B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE7927A525B918A500EEB03B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE7927A825B918A500EEB03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7927AA25B918A600EEB03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7927AD25B918A600EEB03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7927AF25B918A600EEB03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7927B025B918A600EEB03B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE7927B625B918A600EEB03B /* VideoEncodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEncodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7927BA25B918A600EEB03B /* VideoEncodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncodeTests.m; sourceTree = "<group>"; };
+		EE7927BC25B918A600EEB03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7927C125B918A600EEB03B /* VideoEncodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoEncodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7927C525B918A600EEB03B /* VideoEncodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncodeUITests.m; sourceTree = "<group>"; };
+		EE7927C725B918A600EEB03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7927D425B91A4500EEB03B /* MyCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCaptureSession.m; sourceTree = "<group>"; };
+		EE7927D525B91A4500EEB03B /* MyCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCaptureSession.h; sourceTree = "<group>"; };
+		EE7927D725B91A4500EEB03B /* EncodeH264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeH264.h; sourceTree = "<group>"; };
+		EE7927D825B91A4500EEB03B /* EncoderAAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncoderAAC.m; sourceTree = "<group>"; };
+		EE7927D925B91A4500EEB03B /* EncodeH264.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodeH264.m; sourceTree = "<group>"; };
+		EE7927DA25B91A4500EEB03B /* EncoderAAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncoderAAC.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE79279825B918A500EEB03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927B325B918A600EEB03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927BE25B918A600EEB03B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE79279225B918A500EEB03B = {
+			isa = PBXGroup;
+			children = (
+				EE79279D25B918A500EEB03B /* VideoEncode */,
+				EE7927B925B918A600EEB03B /* VideoEncodeTests */,
+				EE7927C425B918A600EEB03B /* VideoEncodeUITests */,
+				EE79279C25B918A500EEB03B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE79279C25B918A500EEB03B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE79279B25B918A500EEB03B /* VideoEncode.app */,
+				EE7927B625B918A600EEB03B /* VideoEncodeTests.xctest */,
+				EE7927C125B918A600EEB03B /* VideoEncodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE79279D25B918A500EEB03B /* VideoEncode */ = {
+			isa = PBXGroup;
+			children = (
+				EE7927D325B91A4500EEB03B /* captureSession */,
+				EE7927D625B91A4500EEB03B /* encode */,
+				EE79279E25B918A500EEB03B /* AppDelegate.h */,
+				EE79279F25B918A500EEB03B /* AppDelegate.m */,
+				EE7927A425B918A500EEB03B /* ViewController.h */,
+				EE7927A525B918A500EEB03B /* ViewController.m */,
+				EE7927A725B918A500EEB03B /* Main.storyboard */,
+				EE7927AA25B918A600EEB03B /* Assets.xcassets */,
+				EE7927AC25B918A600EEB03B /* LaunchScreen.storyboard */,
+				EE7927AF25B918A600EEB03B /* Info.plist */,
+				EE7927B025B918A600EEB03B /* main.m */,
+			);
+			path = VideoEncode;
+			sourceTree = "<group>";
+		};
+		EE7927B925B918A600EEB03B /* VideoEncodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7927BA25B918A600EEB03B /* VideoEncodeTests.m */,
+				EE7927BC25B918A600EEB03B /* Info.plist */,
+			);
+			path = VideoEncodeTests;
+			sourceTree = "<group>";
+		};
+		EE7927C425B918A600EEB03B /* VideoEncodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE7927C525B918A600EEB03B /* VideoEncodeUITests.m */,
+				EE7927C725B918A600EEB03B /* Info.plist */,
+			);
+			path = VideoEncodeUITests;
+			sourceTree = "<group>";
+		};
+		EE7927D325B91A4500EEB03B /* captureSession */ = {
+			isa = PBXGroup;
+			children = (
+				EE7927D425B91A4500EEB03B /* MyCaptureSession.m */,
+				EE7927D525B91A4500EEB03B /* MyCaptureSession.h */,
+			);
+			path = captureSession;
+			sourceTree = "<group>";
+		};
+		EE7927D625B91A4500EEB03B /* encode */ = {
+			isa = PBXGroup;
+			children = (
+				EE7927D725B91A4500EEB03B /* EncodeH264.h */,
+				EE7927D825B91A4500EEB03B /* EncoderAAC.m */,
+				EE7927D925B91A4500EEB03B /* EncodeH264.m */,
+				EE7927DA25B91A4500EEB03B /* EncoderAAC.h */,
+			);
+			path = encode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE79279A25B918A500EEB03B /* VideoEncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7927CA25B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncode" */;
+			buildPhases = (
+				EE79279725B918A500EEB03B /* Sources */,
+				EE79279825B918A500EEB03B /* Frameworks */,
+				EE79279925B918A500EEB03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoEncode;
+			productName = VideoEncode;
+			productReference = EE79279B25B918A500EEB03B /* VideoEncode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7927B525B918A600EEB03B /* VideoEncodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7927CD25B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncodeTests" */;
+			buildPhases = (
+				EE7927B225B918A600EEB03B /* Sources */,
+				EE7927B325B918A600EEB03B /* Frameworks */,
+				EE7927B425B918A600EEB03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7927B825B918A600EEB03B /* PBXTargetDependency */,
+			);
+			name = VideoEncodeTests;
+			productName = VideoEncodeTests;
+			productReference = EE7927B625B918A600EEB03B /* VideoEncodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE7927C025B918A600EEB03B /* VideoEncodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7927D025B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncodeUITests" */;
+			buildPhases = (
+				EE7927BD25B918A600EEB03B /* Sources */,
+				EE7927BE25B918A600EEB03B /* Frameworks */,
+				EE7927BF25B918A600EEB03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE7927C325B918A600EEB03B /* PBXTargetDependency */,
+			);
+			name = VideoEncodeUITests;
+			productName = VideoEncodeUITests;
+			productReference = EE7927C125B918A600EEB03B /* VideoEncodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE79279325B918A500EEB03B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = devin;
+				TargetAttributes = {
+					EE79279A25B918A500EEB03B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EE7927B525B918A600EEB03B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE79279A25B918A500EEB03B;
+					};
+					EE7927C025B918A600EEB03B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EE79279A25B918A500EEB03B;
+					};
+				};
+			};
+			buildConfigurationList = EE79279625B918A500EEB03B /* Build configuration list for PBXProject "VideoEncode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE79279225B918A500EEB03B;
+			productRefGroup = EE79279C25B918A500EEB03B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE79279A25B918A500EEB03B /* VideoEncode */,
+				EE7927B525B918A600EEB03B /* VideoEncodeTests */,
+				EE7927C025B918A600EEB03B /* VideoEncodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE79279925B918A500EEB03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7927AE25B918A600EEB03B /* LaunchScreen.storyboard in Resources */,
+				EE7927AB25B918A600EEB03B /* Assets.xcassets in Resources */,
+				EE7927A925B918A500EEB03B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927B425B918A600EEB03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927BF25B918A600EEB03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE79279725B918A500EEB03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7927DC25B91A4500EEB03B /* EncoderAAC.m in Sources */,
+				EE7927A625B918A500EEB03B /* ViewController.m in Sources */,
+				EE7927A025B918A500EEB03B /* AppDelegate.m in Sources */,
+				EE7927B125B918A600EEB03B /* main.m in Sources */,
+				EE7927DB25B91A4500EEB03B /* MyCaptureSession.m in Sources */,
+				EE7927DD25B91A4500EEB03B /* EncodeH264.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927B225B918A600EEB03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7927BB25B918A600EEB03B /* VideoEncodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7927BD25B918A600EEB03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7927C625B918A600EEB03B /* VideoEncodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE7927B825B918A600EEB03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE79279A25B918A500EEB03B /* VideoEncode */;
+			targetProxy = EE7927B725B918A600EEB03B /* PBXContainerItemProxy */;
+		};
+		EE7927C325B918A600EEB03B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE79279A25B918A500EEB03B /* VideoEncode */;
+			targetProxy = EE7927C225B918A600EEB03B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE7927A725B918A500EEB03B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7927A825B918A500EEB03B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7927AC25B918A600EEB03B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7927AD25B918A600EEB03B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7927C825B918A600EEB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE7927C925B918A600EEB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7927CB25B918A600EEB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE7927CC25B918A600EEB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE7927CE25B918A600EEB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEncode.app/VideoEncode";
+			};
+			name = Debug;
+		};
+		EE7927CF25B918A600EEB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoEncode.app/VideoEncode";
+			};
+			name = Release;
+		};
+		EE7927D125B918A600EEB03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoEncode;
+			};
+			name = Debug;
+		};
+		EE7927D225B918A600EEB03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z85Q5K8YP;
+				INFOPLIST_FILE = VideoEncodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VideoEncodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoEncode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE79279625B918A500EEB03B /* Build configuration list for PBXProject "VideoEncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7927C825B918A600EEB03B /* Debug */,
+				EE7927C925B918A600EEB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7927CA25B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7927CB25B918A600EEB03B /* Debug */,
+				EE7927CC25B918A600EEB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7927CD25B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7927CE25B918A600EEB03B /* Debug */,
+				EE7927CF25B918A600EEB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7927D025B918A600EEB03B /* Build configuration list for PBXNativeTarget "VideoEncodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7927D125B918A600EEB03B /* Debug */,
+				EE7927D225B918A600EEB03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE79279325B918A500EEB03B /* Project object */;
+}
