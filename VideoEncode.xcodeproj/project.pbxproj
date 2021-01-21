@@ -146,8 +146,8 @@
 		EE7927D325B91A4500EEB03B /* captureSession */ = {
 			isa = PBXGroup;
 			children = (
-				EE7927D425B91A4500EEB03B /* MyCaptureSession.m */,
 				EE7927D525B91A4500EEB03B /* MyCaptureSession.h */,
+				EE7927D425B91A4500EEB03B /* MyCaptureSession.m */,
 			);
 			path = captureSession;
 			sourceTree = "<group>";
@@ -155,10 +155,10 @@
 		EE7927D625B91A4500EEB03B /* encode */ = {
 			isa = PBXGroup;
 			children = (
-				EE7927D725B91A4500EEB03B /* EncodeH264.h */,
-				EE7927D825B91A4500EEB03B /* EncoderAAC.m */,
-				EE7927D925B91A4500EEB03B /* EncodeH264.m */,
 				EE7927DA25B91A4500EEB03B /* EncoderAAC.h */,
+				EE7927D825B91A4500EEB03B /* EncoderAAC.m */,
+				EE7927D725B91A4500EEB03B /* EncodeH264.h */,
+				EE7927D925B91A4500EEB03B /* EncodeH264.m */,
 			);
 			path = encode;
 			sourceTree = "<group>";

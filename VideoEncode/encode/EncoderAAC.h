@@ -1,9 +1,9 @@
 //
 //  EncoderAAC.h
-//  AVColletion
+//  VideoEncode
 //
-//  Created by Tg W on 2017/3/4.
-//  Copyright © 2017年 oppsr. All rights reserved.
+//  Created by devin on 2021/1/21.
+//  Copyright © 2021 devin. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
